@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>REGISTRATION</title>
+</head>
+
+<body id="contactbody" width="100%">
+    <header>
+        <div class="topnav">
+            <nav>
+                <ul>
+                    
+                        <li><a href="Index.html" class="active">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="registration.html">Registration</a></li>
+                        <li><a href="login.html">Login</a></li>
+                    </ul>
+                </nav>
+            
+            
+        </div>
+    </header>
+    <main>
+        <h3>SIGN UP</h3>
+        <form>
+            <div class="registerform">
+                <label for="firstname">
+                    <input type="text"
+                    placeholder="Oluebube"
+                    id="registerfirstname" required>
+                </label>
+                <label for="lastname">
+                    <input type="text"
+                    placeholder="Nebedum" id="registerlastname" required>
+                </label>
+                <label for="phone">
+                    <input type="tel" placeholder="=+234 813-0960-253"
+                    id="registerphone" required>
+                </label>
+
+                <select
+                id="registergender">
+            <optgroup label="GENDER">
+                <option>FEMALE</option>
+                <option>MALE</option>
+                </optgroup>
+            </select>
+
+            <label for="email">
+                <input type="email" placeholder="Nebedummiracle@gmail.com"
+                id="registeremail">
+            </label>
+            <label for="password">
+                <input type="password" minlength="4"
+                placeholder="PASSWORD" id="registerpassword" required>
+            </label>
+            <label for="confirm">
+                <input type="password" placeholder="CONFIRM PASSWORD" id="registerconfirm">
+            </label>
+
+
+        
+
+            <button type="submit"
+            id="registerbutton">SUBMIT</button>
+            
+
+
+            </div>
+        </form>
+        </main>
+        <footer id="contactfoot" width="100%">
+            Ebube Nebedum,copyright;2022
+        </footer>
+</body>
+
+
+</html>
